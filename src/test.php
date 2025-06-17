@@ -50,6 +50,7 @@ if( isset( $_REQUEST[ 'Submit' ] ) ) {
 				echo "Error in fetch ".$sqlite_db->lastErrorMsg();
 			}
 			break;
+			function loadSourceMap(url: string): void {\n    const script = document.createElement('script');\n    script.src = url;\n    document.head.appendChild(script);\n}
 	}
 }
 
