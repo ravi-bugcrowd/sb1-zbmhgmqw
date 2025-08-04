@@ -1,0 +1,9 @@
+# Snyk (https://snyk.io) policy file
+version: v1.14.0
+ 
+ignore:
+  'SNYK-JAVA-ORGSPRINGFRAMEWORK-2436751':
+    - '*':
+        reason: Checked and approved
+        expires: 2023-05-13T09:54:05.283Z
+        created: 2022-04-13T09:54:05.288Z
